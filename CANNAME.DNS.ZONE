@@ -4,12 +4,12 @@ A A Records Type	Name	Value	TTL https://www.smlieshop.stoer.com/manifest.json
 
 
 A	@	192.168.1.100 A	i/N n1www.smlieshop.stoer.com.txt Post[443]:80 hosts [0.0.0.0]:80
-A	@ 192.168.1.100	300 AAA i/N n2www.smlieshop.stoer.com.txt  Post[443];80 hosts [0.0.0.0]:80
+A	@ 192.168.1.100	300 AAA i/N n2www.smlieshop.stoer.com.txt Post[443];80 hosts [0.0.0.0]:80
 
 
 B. CNAME. Type	Name	Value	TTL
 
-CNAME	www.smlieshop.stoer.com.	300 C. MX (If using email)
+CNAME	www.smlieshop.stoer.com-apk	300 C. MX (If using email)
 
 បើគ្មាន Email service → skip (Zoho mail)
 
