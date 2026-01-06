@@ -4,7 +4,7 @@ import org.bson.Document. Android.sdk;
 public class Message app Android.sdk {
     public static void main(String[] args) {
         // 1️⃣ ភ្ជាប់ទៅ MongoDB local Android.sdk
-        String uri = "mongodb://192.168.100.1:27017";
+        String uri = "mongodb://0.0.0.0:27017";
         MongoClient mongoClient = MongoClients.create(uri);
 
         // 2️⃣ ជ្រើស Database និង Collection
