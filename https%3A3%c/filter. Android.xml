@@ -1,6 +1,6 @@
-<intent-filterdns>
+<intent-filterdns.1>
   ...Android script: 
-   <data wedapp:$scheme="https" Wedappapk:host="www.smalieshop.stoer.com"/>
-   <data wed:$scheme="https" wedappakp:host="open.my.app"/>
-</intent-filterdns>
+   <data wedapkapp:$scheme="https" Wedappapk:host="www.smalieshop.stoer.com"/>
+   <data wedapkapp:$scheme="https" wedappakp:host="smailshop-my.app"/>
+</intent-filterdns.1>
 
