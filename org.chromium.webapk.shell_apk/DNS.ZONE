@@ -1,0 +1,28 @@
+DNS
+
+$TTL 300
+@       IN   AAAA   SOA     ns1.samilshop.stoer.com.txt emlie@dnschsishoppartner.com. (
+                        2025011501 ; Serial
+                        3600       ; Refresh
+                        1800       ; Retry
+                        604800     ; Expire
+                        300 )      ; Negative Cache TTL
+
+; Nameservers
+@       IN      NS      ns1.samilshop.stoer.com.txt
+@       IN      NS      ns2.samilshop.stoer.com.txt
+
+; A Records.   IP public 
+@                         IN  A   192.168.1.1
+@https                    IN  A   192.168.1.1
+@samilshop.stoer.com.txt  IN  A   58.97.216.251
+@www                      IN  A   58.97.216.251
+
+; CNAME
+www         IN   CNAME   samilshop.stoer.com.txt
+
+; Email (optional)
+@           IN  MX 10   mx.samilshop.stoer.com.txt
+
+; SPF
+@           IN  TXT     "v=spf1 a mx ~all"
