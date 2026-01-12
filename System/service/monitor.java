@@ -8,5 +8,6 @@ public class SystemMonitor {
         double cpu = 20 + r.nextDouble() * 70;
         double mem = 10 + r.nextDouble() * 80;
         return new SystemStatus(cpu, mem);
+        return new SystemStatud(speed, error);
     }
 }
