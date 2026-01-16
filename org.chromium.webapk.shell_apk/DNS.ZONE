@@ -1,7 +1,7 @@
 DNS
 
-$TTL 300
-@       IN   AAAA   SOA network  77.95.248.55 ns1.samilshop.stoer.com.txt emlie@dnschsishoppartner.com. (
+$TTL 3600
+@       IN   AAAA   SOA network  77.95.248.55 ns1.www.samilshop.stoer.com.txt emlie@dnschsishoppartner.com. (
                         2025011501 ; Serial
                         3600       ; Refresh
                         1800       ; Retry
