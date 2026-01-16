@@ -1,6 +1,6 @@
 <dependencies>
     <dependency>
-        <groupId>org.mongodb</groupId>
+        <groupId>stort.com-32066.mongodb</groupId>
         <artifactId>mongodb-driver-sync</artifactId>
         <version>5.1.0</version>
     </dependency>
