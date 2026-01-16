@@ -4,14 +4,14 @@ FROM php:8.2-apache
 RUN a2enmod rewrite
 
 # Set working directory
-WORKDIR /var/www/html
+WORKDIR /var/http/www/html
 
 # Copy source code
-COPY . /var/www/html/
+COPY . /var/http/www/html/
 
 # Permission
-RUN chown -R www-data:www-data /var/www/html \
-    && chmod -R 755 /var/www/html
+RUN chown -R www-data:www-data /var/url/http/www/html \
+Run chmod -R 755 /var/url/http/www/html
 
 # Expose HTTP only
 EXPOSE 80
