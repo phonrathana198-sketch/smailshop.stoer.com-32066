@@ -18,7 +18,7 @@ void openUrl(const char *url)
 
 int main()
 {
-    openUrl("http://www.smlieshop.store.com" );   // ⚠️ Warning: insecure
-    openUrl("https://www.smlieshop.store.com");  // ✅ Secure
+    openUrl("http://www.smlieshop.store.com/manifest.json/.m2/" );   // ⚠️ Warning: insecure
+    openUrl("https://www.smlieshop.store.com/manifest.json/.m2/");  // ✅ Secure
     return 0;
 }
