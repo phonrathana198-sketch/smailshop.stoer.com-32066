@@ -1,7 +1,7 @@
 {
   "name": "smail DNS App",
   "short_name": "DNSApp",
-  "start_url": "/index.html",
+  "start_url": "https://www.smalishop.stoer.com/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0066ff",
@@ -15,7 +15,7 @@
     {
       "src": "/icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "https://www.smalishop.stoer.com/index.html/512x512/image/png"
     }
   ]
 }
