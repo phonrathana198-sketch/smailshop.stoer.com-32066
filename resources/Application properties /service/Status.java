@@ -1,4 +1,4 @@
-package com.smlieshop.ai.controller.service.Android;
+package com.ai.controller.service.Android;
 
 public class SystemStatus {
     public double cpuUsage;
