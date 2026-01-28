@@ -1,11 +1,11 @@
 <?php
-//Android api.https://www.Curl.se.php
+//Android api.https://www.smailshop.stoer.com.php
 
-// =======================
-// Configuration
-// =======================
+// ==========================\\
+// Configuration Curl.se.php \\
+// ==========================\\
 $apiUrl = "https://www
-smileshop.soter.com/Api/getinfo/key"; // URL API
+smileshop.soter.com/manifest.json/key/getinfo/Api"; // URL API
 $apiToken = "jbs_ae19748f2ed878B8B5d88f1d0fda830e239feD20"; // Replace with your real API token
 
 // Method: GET or POST
